@@ -1,0 +1,79 @@
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>輸入身高、體重的HTML程式 </title>
+</head>
+
+<body>
+<div>
+<h2>HTML 表單:輸入身高、體重</h2>
+<form action="bmi1.php" method="POST" target="_blank">
+    學號:
+    <input name="stNo" type="text" size="16" maxlength="9">
+    <br>
+    姓名:
+    <input name="stName" type="text" size="16" maxlength="10">
+    <br>
+    性別:
+    <input name="gender" type="radio" value="M" checked>男
+    <input name="gender" type="radio" value="F" checked>女
+    <br>
+    年級:
+    <input name="grade" type="radio" value="1" checked>一年級
+    <input name="grade" type="radio" value="2" checked>二年級
+    <input name="grade" type="radio" value="3" checked>三年級
+    <input name="grade" type="radio" value="4" checked>四年級
+    <br>
+    生日:
+    <select name="year">
+        </select>年
+    <select name="month">
+        </select>月
+    <select name="day">
+        </select>日
+    <br>
+    年齡:
+    <select name="age">
+        <option value="15">15</option>
+        <option value="16">16</option>
+        <option value="17">17</option>
+        <option value="18">18</option>
+        <option value="19">19</option>
+        <option value="20">20</option>
+        <option value="21">21</option>
+        <option value="22">22</option>
+        <option value="23">23</option>
+        <option value="24">24</option>
+    </select>歲
+    <br>
+    系別:
+    <select name="department">
+        <option value="醫務管理暨醫療資訊學系">醫務管理暨醫療資訊學系</option>
+        <option value="醫學檢驗生物技術學系">醫學檢驗生物技術學系</option>
+        <option value="公共衛生學系">公共衛生學系</option>
+        <option value="物理治療系">物理治療系</option>
+        <option value="職能治療學系">職能治療學系</option>
+        <option value="醫學影像暨放射科學系">醫學影像暨放射科學系</option>
+    </select>
+    <br>
+    請勾選您有興趣參加的社團(可複選)：<br>
+    <input name="club[]" type="checkbox" value="社團1" checked>社團1
+    <input name="club[]" type="checkbox" value="社團2" >社團2 
+    <input name="club[]" type="checkbox" value="社團3" >社團3
+    <input name="club[]" type="checkbox" value="社團4" >社團4
+    <input name="club[]" type="checkbox" value="社團5" >社團5
+    <br>
+    身高(公分):
+    <input name="height" type="text" size="16" maxlength="10">
+    <br>
+    體重(公斤):
+    <input name="weight" type="text" size="16" maxlength="10">
+    <br><br>
+    <input name="button1" type="submit" value="開始計算BMI">
+    <input name="button2" type="reset" value="重新填寫資料">
+
+
+</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+</style>
+
+<style type="text/css">
+<!--
+.style1 {
+  font-size: 28px;
+  color: #FF0000;
+  font-family: "標楷體";
+  font-weight: bold;
+}
+
+.style2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.style3 {
+  color: #FFFFFF;
+  font-family: "新細明體";
+}
+
+body {
+  /*background-image: url(images/bg02.gif);*/
+  margin-left: 35px;
+}
+-->
+</style>
